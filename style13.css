@@ -1,0 +1,190 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #2b2d42;
+            line-height: 1.6;
+        }
+
+        
+        .cabecalho {
+            background-color: #690c94;
+            color: #ffffff;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        .menu {
+            display: flex; 
+            gap: 25px;
+            list-style: none;
+        }
+
+        .menu-link {
+            color: #edf2f4;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        
+        .menu-link:hover {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .menu-link:focus {
+            outline: 3px solid #1c0fd3;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        
+        .apresentacao {
+            color: #ffffff;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .apresentacao-titulo {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #1d1e2c;
+        }
+
+        .apresentacao-texto {
+            font-size: 1.15rem;
+            max-width: 650px;
+            margin: 0 auto 30px auto;
+            color: #f8f9fa;
+        }
+
+        .btn-destaque {
+            display: inline-block;
+            background-color: #690c94;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 28px;
+            font-weight: bold;
+            border-radius: 8px; 
+            border: 2px solid transparent;
+            transition: transform 0.2s, background-color 0.3s;
+        }
+
+        .btn-destaque:hover {
+            background-color: #690c94;
+            transform: translateY(-2px);
+        }
+
+        .btn-destaque:focus {
+            outline: 3px solid #1c0fd3;
+            background-color: #690c94;
+        }
+
+       
+        .secao-cursos {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .secao-titulo {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 35px;
+            color: #2b2d42;
+        }
+
+        .container-cards {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            flex-wrap: wrap; 
+            gap: 25px; 
+        }
+
+        .card {
+            background-color: #ffffff;
+            border: 2px solid #dee2e6;
+            border-radius: 12px; 
+            padding: 25px;
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+       
+        .card:first-child {
+            border: 2px solid #690c94;
+            background-color: #fff5f6;
+        }
+
+        .card-titulo {
+            font-size: 1.4rem;
+            color: #2b2d42;
+            margin-bottom: 12px;
+        }
+
+        .card-descricao {
+            font-size: 0.95rem;
+            color: #4a4e69;
+            margin-bottom: 20px;
+        }
+
+        .card-carga {
+            font-weight: bold;
+            font-size: 0.9rem;
+            color: #690c94;
+            margin-bottom: 20px;
+        }
+
+        .card-link {
+            display: inline-block;
+            text-align: center;
+            background-color: #2b2d42;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+
+      
+        .card-link:hover {
+            background-color: #690c94;
+        }
+
+        .card-link:focus {
+            outline: 3px solid #1c0fd3;
+            background-color: #690c94;
+        }
+
+
+        .rodape {
+            color: #000000;
+            text-align: center;
+            padding: 25px 20px;
+            margin-top: 60px;
+            font-size: 0.95rem;
+        }
